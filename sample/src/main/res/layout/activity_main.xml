@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/sound_mic"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/sound_delete_layout"
+                    android:layout_centerHorizontal="true"
+
+                    android:src="@drawable/btn_sound_mic"
+                    />
+
+                <ImageView
+                    android:id="@+id/sound_recording"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:scaleType="center"
+                    android:src="@drawable/sound_recording"
+                    android:visibility="invisible"/>
+<Button
+    android:layout_width="wrap_content"
+    android:id="@+id/play_test"
+    android:text="测试"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv_record"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/sound_mic"
+                />
+
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="home_red">#E83829</color>
+    <color name="home_back">#595758</color>
+    <color name="homeitem1">#16a3be</color>
+    <color name="homeitem2">#765308</color>
+    <color name="homeitem3">#663366</color>
+
+    <color name="toolbar_btn_select">#D9D9D9</color>
+    <color name="toolbar_btn_nomal">@color/white</color>
+    <color name="toolbar_spilt_line">#CDCDCD</color>
+    <color name="spilt_line">#CFCFCF</color>
+        <color name="white">#FFFFFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="title_bar_background">#165893</color>
+
+    <!-- 标题栏背景 -->
+    <color name="title_bar_background_gray">#23cdb7</color>
+    <color name="title_bar_background_pink">#e75280</color>
+    <color name="title_bar_background_orange">#CC9933</color>
+    <color name="order_item_goods">#F0F0F0</color>
+    <color name="gray_b3">#b3b3b3</color>
+
+    <!-- 首页字体颜色 -->
+    <color name="main_left_title_m">#637073</color>
+    <color name="main_left_title_h">#165893</color>
+    <color name="main_color_orange">#F08300</color>
+    <color name="gold_color">#FFBE85</color>
+    <color name="person_color">#FFAAB0</color>
+    <!-- 主题颜色，橘色 -->
+    <color name="btndown_orange">#FF5601</color>
+    <!-- 按钮按下颜色，橘红色 -->
+    <color name="text_blue">#599BC7</color>
+    <!-- 文字蓝色 -->
+    <color name="textdown_blue">#B4CDE6</color>
+    <!-- 文字按下蓝色 -->
+    <color name="bg_blue">#88ABDA</color>
+    <!-- 浅蓝色背景 -->
+    <color name="bg_gray">#EFEFEF</color>
+    <!-- 灰色背景 -->
+    <color name="bg_mine_item">#F8F8F8</color>
+    <!-- 浅灰色背景 -->
+    <color name="line_gray">#B7B7B7</color>
+    <!-- 灰色画线 -->
+    <color name="line_shallow_gray">#cccccc</color>
+    <!-- 浅灰色画线 -->
+    <color name="black">#000</color>
+    <!-- 纯黑色 -->
+    <color name="text_black">#343434</color>
+    <!-- 文字颜色黑色 -->
+
+    <color name="header_color">#f08300</color>
+    <color name="light_gray">#d1d1d1</color>
+    <color name="text_dark">#343434</color>
+    <color name="text_light">#999999</color>
+    <color name="theme_red">#f0870e</color>
+    <color name="text_gray">#696969</color>
+    <color name="gray">#A1A2A2</color>
+    <color name="gray_deep">#67696C</color>
+    <color name="green">#05D09B</color>
+    <color name="green_home">#6AC444</color>
+    <color name="red">#E25949</color>
+    <color name="yellow">#F9D873</color>
+    <color name="yellow_earth">#EEEEEE</color>
+    <color name="blue">#638ED8</color>
+    <color name="pink">#FFF7F5</color>
+    <color name="white_milk">#E5E5E5</color>
+    <color name="white_alpha">#66ffffff</color>
+    <color name="white_water">#F5F9FA</color>
+    <color name="white_translucence">#7FFFFFFF</color>
+    <color name="white_translucence2">#bFFFFFFF</color>
+    <color name="black_translucence">#7F000000</color>
+    <color name="orange">#DD5747</color>
+    <color name="orange_text">#FF8A00</color>
+    <color name="title_red">#FF0033</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <!-- 授权 -->
+    <color name="sliding_menu_item_down">#ff39393b</color>
+    <color name="sliding_menu_item_release">#00000000</color>
+    <color name="sliding_menu_background">#ff2c2c2e</color>
+    <color name="sliding_menu_body_background">#fff5f5f5</color>
+
+    <!-- 背景色 -->
+    <color name="bg_color">#edf1ee</color>
+
+    <!-- 首页字体颜色 -->
+    <color name="main_font_color">#5f6265</color>
+    <color name="login_textcolor">#A52A2A</color>
+    <color name="main_center_color_one">#e6ede8</color>
+    <color name="main_center_color_two">#edf1ee</color>
+    <color name="main_center_color_three">#f2f5f2</color>
+
+    <!-- 验证登录字体颜色 红色 -->
+
+    <color name="txthit_color">#c9c9c9</color>
+    <color name="txtcode_color">#9e9e9e</color>
+    <color name="fm_mine_textcolor">#808080</color>
+    <color name="fm_mine_titlenamecolor">#929292</color>
+    <color name="fm_mine_nickname">#333333</color>
+    <color name="fm_mine_line">#e5e5e5</color>
+    <!-- 消息详情 -->
+    <color name="txt_msg_color">#989998</color>
+    <color name="txt_find_color">#747474</color>
+    <color name="txt_money_color">#f57365</color>
+    <!-- 橘色 -->
+    <color name="txt_score_color">#f7941d</color>
+    <!-- 淡灰色 -->
+    <color name="txt_time_color">#cccccc</color>
+    <color name="txt_way_color">#363736</color>
+    <color name="txt_seekbar_color">#72d3f4</color>
+    <color name="txt_title_detail">#666666</color>
+    <color name="txt_teacher_color">#999999</color>
+    <color name="txt_teacherz_color">#333333</color>
+    <color name="redmoney">#ff0000</color>
+    <color name="txt_teacher_name">#555555</color>
+    <color name="txt_teacher_names">#898989</color>
+    <color name="txt_teacher_red">#e3584f</color>
+    <color name="txt_curriculum_title">#3d3d3d</color>
+    <color name="txt_curriculum_name">#717171</color>
+    <color name="txt_error_title">#070808</color>
+    <color name="gray_f5">#F5F5F5</color>
+
+    <!-- toast -->
+    <color name="custom">#ff0099CC</color>
+    <color name="sticky">#ffffcd5a</color>
+    <color name="alert">#CC0000</color>
+    <color name="confirm">#FF8800</color>
+    <color name="info">#669900</color>
+    <color name="listview_item_normal">#eef0ed</color>
+    <color name="listview_item_pressed">#d4d4d4</color>
+    <color name="zise">#B766AD</color>
+    <color name="vifrification">#00000000</color>   <!-- 透明 -->
+    <color name="ijk_transparent_dark">#77000000</color>
+    <color name="dim_foreground_dark">#bebebe</color>
+    <color name="fab_pressed_main">#3EBBDB</color>
+    <color name="fab_pressed_son">#1C8D87</color>
+    <color name="radiogroup_bg">#18181C</color>
+
+
+    <color name="background_tab_pressed">@color/colorPrimary</color>
+    <color name="indicator_color">#3F51B5</color>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.czt.mp3recorder.sample.Myapplication.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sl"
+    android:layout_width="match_parent"
+    android:minHeight="60dp"
+    android:layout_height="60dp">
+
+    <!--出去的部分-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sound_upload_new"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#0F0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:text="UpLoad"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/sound_delete_new"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="#F00"
+            android:gravity="center"
+            android:text="Delete"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sound_show_new"
+            style="@style/SoundBtnStyle"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="center"
+            android:visibility="gone"
+            android:src="@drawable/image_delete" />
+
+    </LinearLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0ff"
+        android:gravity="center_vertical"
+        >
+
+        <Button
+            android:id="@+id/sound_show_new"
+            style="@style/SoundBtnStyle"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:id="@+id/iv_red_point"
+            android:layout_alignRight="@+id/sound_show_new"
+            android:layout_marginRight="-10dp"
+            android:src="@mipmap/small_red_point" />
+
+    </RelativeLayout>
+
+</com.czt.mp3recorder.sample.Myapplication.SwipeLayout>
