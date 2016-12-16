@@ -29,7 +29,8 @@ dependencies {
 }
 
 def siteUrl = 'https://github.com/GavinCT/AndroidMP3Recorder'      // 项目的主页
-def gitUrl = 'https://github.com/GavinCT/AndroidMP3Recorder.git'   // Git仓库的url
+def gitUrl = 'https://github.com/yl754980640/myShare_MP3_listview.git'   // Git仓库的ur  https://github.com/GavinCT/AndroidMP3Recorder.git
+
 group = "com.czt.mp3recorder"                                   // Maven Group ID for the artifact，一般填你唯一的包名
 install {
     repositories.mavenInstaller {
